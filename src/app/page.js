@@ -2,13 +2,21 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/components/Header/Header";
 import Main from "@/components/Main/Main";
+import Menus from "@/components/Menus/Menus";
+import Muffins from "@/components/Muffins/Muffins";
+import Flotante from "@/components/Flotante/Flotante";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>
+      <div className={styles.tricolor}>
         <Header/>
-        <Main />
+        <Main/>
+        <Menus/>
+        <Muffins/>
+        <Flotante/>
+        <Footer/>
       </div>
     </main>
   );

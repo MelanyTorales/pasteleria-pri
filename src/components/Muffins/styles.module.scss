@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.Muffins {
+    gap: 20px;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+.Menus {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.muffinschocolate {
+    width: 600px;
+    height: 600px;
+    display:flex;
+}
