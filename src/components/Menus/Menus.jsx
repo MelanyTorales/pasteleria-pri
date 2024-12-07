@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./styles.module.scss"
+import Title from "../Title/Title";
 
 const Menus = () => {
     return (
 
         <div className={styles.varios}>
-            <div className={styles.Menus}>
-                <h1 className={styles.algo}>Bienvenidos a las Delicias de Pri</h1>
-                <p className={styles.otro}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vitae placeat optio.</p>
-            </div>
+            <Title
+                textTitle="Bienvenidos a las Delicias de Pri"
+                textParrafo="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+            ></Title>
 
             <div className={styles.comidas}>
                 <div className={styles.velvet}>

@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./styles.module.scss"
 
-
 const Button = ({ tipo, text }) => {
   return (
     <>

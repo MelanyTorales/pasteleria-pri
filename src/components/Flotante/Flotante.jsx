@@ -2,7 +2,7 @@ import React from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoIosCall } from "react-icons/io";
-import styles from "./style.module.scss"
+import styles from "./styles.module.scss"
 
 const Flotante = () => {
   return (

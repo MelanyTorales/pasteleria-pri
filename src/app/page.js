@@ -6,6 +6,7 @@ import Menus from "@/components/Menus/Menus";
 import Muffins from "@/components/Muffins/Muffins";
 import Flotante from "@/components/Flotante/Flotante";
 import Footer from "@/components/Footer/Footer";
+import ContenedorProductos from "@/components/ContenedorProductos/ContenedorProductos";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Menus/>
         <Muffins/>
         <Flotante/>
+        <ContenedorProductos/>
         <Footer/>
       </div>
     </main>

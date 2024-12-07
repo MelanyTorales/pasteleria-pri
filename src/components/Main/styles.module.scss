@@ -9,7 +9,11 @@
     gap: 20px;
 }
 .main {
-    padding: 5%;
-    display: flex;
+    padding: 2% 5%;
+    display: flex !important;
     align-items: center;
+}
+
+@media screen and (width: 1280px){
+    
 }
